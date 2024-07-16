@@ -1,5 +1,6 @@
 import styles from './HereStyles.module.css'
-import heroimg from '../../assets/hero-img.png'
+//import heroimg from '../../assets/hero-img.png'
+import heroimg from '../../assets/GradPic_Circle.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
 import LinkedInIcon from '../../assets/linkedin-light.svg'
@@ -9,7 +10,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import instagramLight from '../../assets/instagram_Light.png'
 import instagramDark from '../../assets/instagram_Dark.png'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/KathirSubramaniam_CV.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 function Hero() {
@@ -52,7 +53,8 @@ function Hero() {
             </span>
 
             <p className ={styles.description}> 
-              Passionate and Driven for Developing Software Applications.</p>
+            Passionate and Driven for Developing Software Applications.
+            </p>
             <a href={CV} download>
               <button className= "hover">
                 Resume

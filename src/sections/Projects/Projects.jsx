@@ -14,12 +14,6 @@ function Projects() {
       <div className={styles.projectsContainer}>
 
       <ProjectCard 
-      src = {robotArenaGame} link = "https://github.com/KathirSub/Avoid-Robots-From-Castle-Game" 
-      h3 = "Guard Arena"
-      p = "Java Game"
-      />
-
-      <ProjectCard 
       src = {monkey_meals} link = "https://github.com/KathirSub/Food-Order-Application" 
       h3 = "Monkey Meals"
       p = "Food Ordering App"
@@ -35,6 +29,12 @@ function Projects() {
       src = {CricketDB} link = "https://github.com/KathirSub/ICC-Cricket-Database-Real-Sample-Data-" 
       h3 = "ICC Cricket DB"
       p = "Database on Cricket Finals"
+      />
+
+      <ProjectCard 
+      src = {robotArenaGame} link = "https://github.com/KathirSub/Avoid-Robots-From-Castle-Game" 
+      h3 = "Guard Arena"
+      p = "Java Game"
       />
 
       <ProjectCard 
